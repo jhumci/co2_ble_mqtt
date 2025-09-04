@@ -30,11 +30,11 @@ SENSORS = [
     }
     # Hier können weitere Sensoren hinzugefügt werden
 ]
-MQTT_BROKER = '158.180.44.'
+MQTT_BROKER = '158.180.44.197'
 MQTT_PORT = 1883 # Standard MQTT Port (unverschlüsselt)
 # MQTT_PORT = 8883 # Standard MQTT Port (verschlüsselt)
 MQTT_USER = "bobm"
-MQTT_PASSWORD = ""letmein
+MQTT_PASSWORD = "letmein"
 MQTT_CLIENT_ID = f"Sensor_Client_{ROOM_NAME}" # Eindeutigerer Client-ID
 
 # MQTT Client Handler
